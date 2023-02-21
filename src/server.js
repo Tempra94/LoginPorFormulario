@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(
   session({
     store: MongoStore.create({
-      mongoUrl: "mongodb+srv://CoderGermancho:coderBackend2023@codercluster.dzpfie2.mongodb.net/?retryWrites=true&w=majority",
+      mongoUrl: "mongodb+srv://tempra@cluster0.rwrbgms.mongodb.net/?retryWrites=true&w=majority",
       mongoOptions: {
         useNewUrlParser: true,
         useUnifiedTopology: true,
