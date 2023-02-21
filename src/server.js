@@ -31,7 +31,7 @@ app.use(
 );
 
 mongoose.set('strictQuery', false)
-mongoose.connect("mongodb+srv://CoderGermancho:coderBackend2023@codercluster.dzpfie2.mongodb.net/?retryWrites=true&w=majority" )
+mongoose.connect("mongodb+srv://tempra@cluster0.rwrbgms.mongodb.net/?retryWrites=true&w=majority" )
   .then(() => console.log("Connected to MongoDB"))
 
 app.engine('hbs', handlebars.engine({
